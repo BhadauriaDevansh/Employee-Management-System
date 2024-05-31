@@ -1,0 +1,188 @@
+<mxfile host="app.diagrams.net" modified="2024-05-09T18:39:52.118Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="-baKP6cqwS3mQ74kRoAA" version="24.3.1" type="device">
+  <diagram name="Page-1" id="65BOnIg58lX2TgS4kh6c">
+    <mxGraphModel dx="746" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xGdNKy7fQieijbLhMlRV-1" value="Employee" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24.595238821847097;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="396" width="482" height="357.5952388218471" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-2" value="- id : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-1">
+          <mxGeometry y="24.595238821847097" width="482" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-3" value="- name : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-1">
+          <mxGeometry y="49.5952388218471" width="482" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-4" value="- position : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-1">
+          <mxGeometry y="74.59523882184709" width="482" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-5" value="- salary : double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-1">
+          <mxGeometry y="99.59523882184709" width="482" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-6" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-1">
+          <mxGeometry y="124.59523882184709" width="482" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-7" value="+ Employee(id: int, name: String, position: String, salary: double)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-1">
+          <mxGeometry y="132.5952388218471" width="482" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-8" value="+ getId() : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-1">
+          <mxGeometry y="157.5952388218471" width="482" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-9" value="+ getName() : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-1">
+          <mxGeometry y="182.5952388218471" width="482" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-10" value="+ getPosition() : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-1">
+          <mxGeometry y="207.5952388218471" width="482" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-11" value="+ getSalary() : double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-1">
+          <mxGeometry y="232.5952388218471" width="482" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-12" value="+ setId(id: int) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-1">
+          <mxGeometry y="257.5952388218471" width="482" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-13" value="+ setName(name: String) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-1">
+          <mxGeometry y="282.5952388218471" width="482" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-14" value="+ setPosition(position: String) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-1">
+          <mxGeometry y="307.5952388218471" width="482" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-15" value="+ setSalary(salary: double) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-1">
+          <mxGeometry y="332.5952388218471" width="482" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-16" value="Payroll" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24.916669209798176;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="552" y="418" width="495" height="307.91666920979816" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-17" value="- employee : Employee" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-16">
+          <mxGeometry y="24.916669209798176" width="495" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-18" value="- hoursWorked : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-16">
+          <mxGeometry y="49.91666920979817" width="495" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-19" value="- payRate : double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-16">
+          <mxGeometry y="74.91666920979817" width="495" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-20" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-16">
+          <mxGeometry y="99.91666920979817" width="495" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-21" value="+ Payroll(employee: Employee, hoursWorked: int, payRate: double)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-16">
+          <mxGeometry y="107.91666920979817" width="495" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-22" value="+ calculatePay() : double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-16">
+          <mxGeometry y="132.91666920979816" width="495" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-23" value="+ getEmployee() : Employee" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-16">
+          <mxGeometry y="157.91666920979816" width="495" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-24" value="+ getHoursWorked() : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-16">
+          <mxGeometry y="182.91666920979816" width="495" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-25" value="+ getPayRate() : double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-16">
+          <mxGeometry y="207.91666920979816" width="495" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-26" value="+ setEmployee(employee: Employee) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-16">
+          <mxGeometry y="232.91666920979816" width="495" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-27" value="+ setHoursWorked(hoursWorked: int) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-16">
+          <mxGeometry y="257.91666920979816" width="495" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-28" value="+ setPayRate(payRate: double) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-16">
+          <mxGeometry y="282.91666920979816" width="495" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-29" value="Attendance" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25.121213045987215;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1097" y="430" width="487" height="283.12121304598725" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-30" value="- employee : Employee" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-29">
+          <mxGeometry y="25.121213045987215" width="487" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-31" value="- date : Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-29">
+          <mxGeometry y="50.12121304598722" width="487" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-32" value="- hoursWorked : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-29">
+          <mxGeometry y="75.12121304598722" width="487" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-33" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-29">
+          <mxGeometry y="100.12121304598722" width="487" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-34" value="+ Attendance(employee: Employee, date: Date, hoursWorked: int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-29">
+          <mxGeometry y="108.12121304598722" width="487" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-35" value="+ getEmployee() : Employee" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-29">
+          <mxGeometry y="133.12121304598722" width="487" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-36" value="+ getDate() : Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-29">
+          <mxGeometry y="158.12121304598722" width="487" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-37" value="+ getHoursWorked() : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-29">
+          <mxGeometry y="183.12121304598722" width="487" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-38" value="+ setEmployee(employee: Employee) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-29">
+          <mxGeometry y="208.12121304598722" width="487" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-39" value="+ setDate(date: Date) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-29">
+          <mxGeometry y="233.12121304598722" width="487" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-40" value="+ setHoursWorked(hoursWorked: int) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-29">
+          <mxGeometry y="258.12121304598725" width="487" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-41" value="EmployeeManagementSystem" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24.916669209798176;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="498" y="20" width="604" height="307.91666920979816" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-42" value="- employees : List" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-41">
+          <mxGeometry y="24.916669209798176" width="604" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-43" value="- payrolls : List" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-41">
+          <mxGeometry y="49.91666920979817" width="604" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-44" value="- attendances : List" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-41">
+          <mxGeometry y="74.91666920979817" width="604" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-45" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-41">
+          <mxGeometry y="99.91666920979817" width="604" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-46" value="+ addEmployee(employee: Employee) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-41">
+          <mxGeometry y="107.91666920979817" width="604" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-47" value="+ removeEmployee(employee: Employee) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-41">
+          <mxGeometry y="132.91666920979816" width="604" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-48" value="+ updateEmployee(employee: Employee) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-41">
+          <mxGeometry y="157.91666920979816" width="604" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-49" value="+ generatePayroll(employee: Employee, hoursWorked: int, payRate: double) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-41">
+          <mxGeometry y="182.91666920979816" width="604" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-50" value="+ recordAttendance(employee: Employee, date: Date, hoursWorked: int) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-41">
+          <mxGeometry y="207.91666920979816" width="604" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-51" value="+ getEmployee(id: int) : Employee" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-41">
+          <mxGeometry y="232.91666920979816" width="604" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-52" value="+ getPayroll(employee: Employee) : Payroll" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-41">
+          <mxGeometry y="257.91666920979816" width="604" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-53" value="+ getAttendance(employee: Employee, date: Date) : Attendance" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xGdNKy7fQieijbLhMlRV-41">
+          <mxGeometry y="282.91666920979816" width="604" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-54" value="has" style="curved=1;startArrow=none;endArrow=none;exitX=-0.0004656962211558361;exitY=0.8431318019751971;entryX=0.5003997992677808;entryY=-0.0009468793869018555;rounded=0;" edge="1" parent="1" source="xGdNKy7fQieijbLhMlRV-41" target="xGdNKy7fQieijbLhMlRV-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="261" y="361" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-55" value="has" style="curved=1;startArrow=none;endArrow=none;exitX=0.4996033220101666;exitY=1.000000099405792;entryX=0.5005260737255366;entryY=0.0010858467425119605;rounded=0;" edge="1" parent="1" source="xGdNKy7fQieijbLhMlRV-41" target="xGdNKy7fQieijbLhMlRV-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xGdNKy7fQieijbLhMlRV-56" value="has" style="curved=1;startArrow=none;endArrow=none;exitX=0.999672340241489;exitY=0.8415365009018736;entryX=0.5007058208238417;entryY=-0.0011735969865825815;rounded=0;" edge="1" parent="1" source="xGdNKy7fQieijbLhMlRV-41" target="xGdNKy7fQieijbLhMlRV-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1341" y="361" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

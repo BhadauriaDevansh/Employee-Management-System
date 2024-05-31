@@ -1,0 +1,28 @@
+USE [EmployeeManagement]
+GO
+/****** Object:  StoredProcedure [dbo].[DisplayPayroll]    Script Date: 31-05-2024 21:39:33 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROCEDURE [dbo].[DisplayPayroll]
+AS
+BEGIN
+    SET NOCOUNT ON; 
+	 SELECT 
+    ID, 
+    EMPID, 
+    [NAME],
+    Position, 
+    DBO.SUM_HoursWorked_EmpID(ID) AS [HoursWorked],
+	(SELECT PAYRATE FROM PAYROLL WHERE EID = EMPLOYEE.ID AND [MONTH] =  DATENAME(MONTH, GETDATE()) AND 
+	[YEAR] = DATENAME(YEAR, GETDATE())  )[PayRate],
+    --PAYROLL.[PayRate], 
+    DATENAME(MONTH, GETDATE()) AS [Month], 
+    DATENAME(YEAR, GETDATE()) AS [Year] 
+FROM 
+    EMPLOYEE 
+	where ID NOT IN (SELECT EID FROM PAYROLL WHERE [MONTH] =  DATENAME(MONTH, GETDATE()) AND 
+	[YEAR] = DATENAME(YEAR, GETDATE()) AND Payed =1)
+
+END;
