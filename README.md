@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Employee Management System (EMS) is a Java-based application designed to streamline the process of managing employee data, attendance, and payroll. This README.md file provides an overview of the project structure, functionality, and key features.
+The Employee Management System (EMS) is a Java-based application designed to streamline the process of managing employee data, attendance, and payroll securely. Built on MSSQL, the system employs stored procedures to prevent SQL injection attacks, ensuring robust data security.
 
 ## Features
 
@@ -30,14 +30,14 @@ The Employee Management System (EMS) is a Java-based application designed to str
 
 ### 5. Database Integration
 
-- Connects to a MySQL database for storing and retrieving employee data.
-- Implements stored procedures to prevent SQL injection and ensure data security.
+- Connects to an MSSQL database for storing and retrieving employee data securely.
+- Implements stored procedures to prevent SQL injection attacks and ensure data integrity.
 
 ## Project Structure
 
 The project is structured into the following main components:
 
-1. **EMSManager**: Java class responsible for managing database connections and executing SQL queries for employee data manipulation.
+1. **EMSManager**: Java class responsible for managing database connections and executing SQL queries using stored procedures for employee data manipulation.
 2. **EMSUI**: Java Swing-based user interface for interacting with the EMS system, including forms for adding/editing employees and managing attendance.
 3. **Stored Procedures**: Folder containing SQL stored procedures used for database operations, ensuring data integrity and security.
 
@@ -47,6 +47,7 @@ To run the Employee Management System on your local machine, follow these steps:
 
 1. Clone the repository to your local environment.
 2. Import the project into your preferred Java IDE (e.g., IntelliJ IDEA, Eclipse).
-3. Set up a MySQL database and configure the connection details given in the project.
+3. Set up an MSSQL database and configure the connection details.
 4. Execute the SQL scripts in the `Store procedure code` folder to create the necessary stored procedures in your database.
 5. Build and run the application from your IDE.
+
