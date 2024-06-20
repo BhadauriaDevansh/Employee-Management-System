@@ -48,5 +48,5 @@ To run the Employee Management System on your local machine, follow these steps:
 1. Clone the repository to your local environment.
 2. Import the project into your preferred Java IDE (e.g., IntelliJ IDEA, Eclipse).
 3. Set up a MySQL database and configure the connection details given in the project.
-4. Execute the SQL scripts in the `Stored Procedures` folder to create the necessary stored procedures in your database.
+4. Execute the SQL scripts in the `Store procedure code` folder to create the necessary stored procedures in your database.
 5. Build and run the application from your IDE.
